@@ -1,4 +1,4 @@
-# Phi Suite Kernel Manager
+# Phi Suite Service Manager
 
 | **Homepage** | [https://phisuite.com][0]        |
 | ------------ | -------------------------------- | 
@@ -6,21 +6,21 @@
 
 ## Overview
 
-This project contains the tools to orchestrate the different microservices.
+This project contains the tools to orchestrate the different services.
 
 ## Commands
 
-Start cluster:
+Start services:
 ```bash
 make start
 ```
 
-Update cluster:
+Update services:
 ```bash
 make update
 ```
 
-Stop cluster:
+Stop services:
 ```bash
 make stop
 ```
