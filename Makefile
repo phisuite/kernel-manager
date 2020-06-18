@@ -1,10 +1,10 @@
-start:
-	docker-compose up -d
 update:
-	docker-compose up -d --build
+	docker-compose up -d --build ${SERVICE}
+start:
+	docker-compose up -d ${SERVICE}
 stop:
-	docker-compose down
-list:
+	docker-compose down ${SERVICE}
+status:
 	docker-compose ps
-log:
-	docker-compose logs -f ${TARGET}
+inspect:
+	docker-compose logs -f ${SERVICE}
